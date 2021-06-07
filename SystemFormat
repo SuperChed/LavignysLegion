@@ -1,26 +1,139 @@
 JSON format for EDDB archive of populated systems. this is the first [0] item in the array.
 
 
-[
+[            //start of main array
 
-{"id":1,"edsm_id":12695,"name":"1 G. Caeli","x":80.90625,"y":-83.53125,"z":-30.8125,"population":6626250,
-"is_populated":true,"government_id":144,"government":"Patronage","allegiance_id":2,"allegiance":"Empire","states":[{"id":16,"name":"Boom"}],"security_id":32,"security":"Medium","primary_economy_id":4,"primary_economy":"Industrial",
-"power":"Arissa Lavigny-Duval","power_state":"Exploited","power_state_id":32,"needs_permit":false,"updated_at":1622455505,
-"minor_factions_updated_at":1622455505,"simbad_ref":"","controlling_minor_faction_id":31816,
-"controlling_minor_faction":"1 G. Caeli Empire League","reserve_type_id":3,"reserve_type":"Common",
-
-"minor_faction_presences":[
- {"happiness_id":2,"minor_faction_id":31816,"influence":51.9,"active_states":[{"id":16,"name":"Boom"}],
- "pending_states":[],"recovering_states":[{"id":107,"name":"Terrorist Attack"}]},
-
- {"happiness_id":2,"minor_faction_id":54517,"influence":11.8,"active_states":[{"id":65,"name":"Election"}],
- "pending_states":[],"recovering_states":[]},{"happiness_id":2,"minor_faction_id":54518,"influence":1,"active_states”:    [{“id":80,"name":"None"}],"pending_states":[],"recovering_states":[]},
-
- {"happiness_id":2,"minor_faction_id":54519,"influence":7.2,"active_states":[{"id":73,"name":"War"}],"pending_states":[],"recovering_states":[]},
-
- {"happiness_id":2,"minor_faction_id":74917,"influence":9.1,"active_states":[{"id":66,"name":"Civil Liberty"}],"pending_states": [],"recovering_states":[]},{"happiness_id":2,"minor_faction_id":40897,"influence":11.8,"active_states": [{"id":65,"name":"Election"}],"pending_states":[],"recovering_states":[]},
-
- {"happiness_id":2,"minor_faction_id":61626,"influence":7.2,"active_states":[{"id":73,"name":"War"}],"pending_states":[],"recovering_states":[]}
-],
-
-"ed_system_address":560249948515}
+  {
+    "id": 1,
+    "edsm_id": 12695,
+    "name": "1 G. Caeli",
+    "x": 80.90625,
+    "y": -83.53125,
+    "z": -30.8125,
+    "population": 6626250,
+    "is_populated": true,
+    "government_id": 144,
+    "government": "Patronage",
+    "allegiance_id": 2,
+    "allegiance": "Empire",
+    "states": [
+      {
+        "id": 16,
+        "name": "Boom"
+      }
+    ],
+    "security_id": 32,
+    "security": "Medium",
+    "primary_economy_id": 4,
+    "primary_economy": "Industrial",
+    "power": "Arissa Lavigny-Duval",
+    "power_state": "Exploited",
+    "power_state_id": 32,
+    "needs_permit": false,
+    "updated_at": 1623022410,
+    "minor_factions_updated_at": 1623022410,
+    "simbad_ref": "",
+    "controlling_minor_faction_id": 31816,
+    "controlling_minor_faction": "1 G. Caeli Empire League",
+    "reserve_type_id": 3,
+    "reserve_type": "Common",
+    "minor_faction_presences": [
+      {
+        "happiness_id": 2,
+        "minor_faction_id": 31816,
+        "influence": 57.6846,
+        "active_states": [
+          {
+            "id": 16,
+            "name": "Boom"
+          }
+        ],
+        "pending_states": [],
+        "recovering_states": [
+          {
+            "id": 107,
+            "name": "Terrorist Attack"
+          }
+        ]
+      },
+      {
+        "happiness_id": 2,
+        "minor_faction_id": 54517,
+        "influence": 7.2854,
+        "active_states": [
+          {
+            "id": 80,
+            "name": "None"
+          }
+        ],
+        "pending_states": [],
+        "recovering_states": []
+      },
+      {
+        "happiness_id": 2,
+        "minor_faction_id": 54518,
+        "influence": 0.998,
+        "active_states": [
+          {
+            "id": 80,
+            "name": "None"
+          }
+        ],
+        "pending_states": [],
+        "recovering_states": []
+      },
+      {
+        "happiness_id": 2,
+        "minor_faction_id": 54519,
+        "influence": 2.994,
+        "active_states": [
+          {
+            "id": 80,
+            "name": "None"
+          }
+        ],
+        "pending_states": [],
+        "recovering_states": []
+      },
+      {
+        "happiness_id": 2,
+        "minor_faction_id": 74917,
+        "influence": 5.7884,
+        "active_states": [
+          {
+            "id": 80,
+            "name": "None"
+          }
+        ],
+        "pending_states": [],
+        "recovering_states": []
+      },
+      {
+        "happiness_id": 2,
+        "minor_faction_id": 40897,
+        "influence": 14.7705,
+        "active_states": [
+          {
+            "id": 80,
+            "name": "None"
+          }
+        ],
+        "pending_states": [],
+        "recovering_states": []
+      },
+      {
+        "happiness_id": 2,
+        "minor_faction_id": 61626,
+        "influence": 10.479,
+        "active_states": [
+          {
+            "id": 80,
+            "name": "None"
+          }
+        ],
+        "pending_states": [],
+        "recovering_states": []
+      }
+    ],
+    "ed_system_address": 560249948515
+  },
